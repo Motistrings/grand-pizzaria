@@ -1,0 +1,21 @@
+ul {
+  margin: 0px;
+  margin-left: 23%;
+  padding-top: 0px;
+  list-style: none;
+}
+ul li {
+  float: left;
+  width: 200px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 2px;
+}
+ul li:hover {
+  background-color: green;
+}
