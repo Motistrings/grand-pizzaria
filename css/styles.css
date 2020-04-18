@@ -46,6 +46,9 @@ body {
   75% {
     background-image: url("../img/meat-deluxe.jpg");
   }
+  100% {
+    background-image: url("../img/display.jpg");
+  }
 }
 ul {
   margin: 0px;
@@ -67,4 +70,36 @@ ul li {
 }
 ul li:hover {
   background-color: green;
+}
+.inner,
+.inner3,
+.inner4 {
+  overflow: hidden;
+}
+.inner img,
+.inner3 img,
+.inner4 img {
+  transition: all 1.5s ease;
+}
+.inner3,
+.inner4 {
+  overflow: hidden;
+  height: 30vh;
+}
+#section-2 {
+  margin-top: 32.5%;
+  background-color: black;
+}
+.inner4:hover img {
+  transform: scale(1.5);
+}
+.inner3:hover img {
+  transform: scale(1.5);
+}
+.inner:hover img {
+  transform: scale(1.5);
+}
+.varieties {
+  font-family: "Pacifico", cursive;
+  color: white;
 }
