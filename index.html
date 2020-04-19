@@ -23,13 +23,16 @@
   </head>
   <body>
     <div class="container-fluid" id="section-1">
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Contacts</li>
-        <li>News</li>
-      </ul>
+      <div class="nav">
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle" />
+        <div class="menu">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Products</a>
+        </div>
+      </div>
       <div class="row" id="main">
         <div class="col-md-12">
           <img
@@ -66,7 +69,7 @@
           <br />
         </div>
       </div>
-      <div class="row justify-content-center">
+      <div class="row">
         <div class="col-md-3">
           <div class="card shadow" style="width: 19rem;">
             <div class="inner">
