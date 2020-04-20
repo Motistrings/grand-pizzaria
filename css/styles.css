@@ -82,7 +82,7 @@ label {
   top: 0;
   width: 100%;
   line-height: 100%;
-  height: 65vh;
+  height: 70vh;
   background-size: cover;
   background-repeat: no-repeat;
   animation: animate 16s ease-in-out infinite;
@@ -140,8 +140,11 @@ ul li {
   height: 30vh;
 }
 #section-2 {
-  margin-top: 32.5%;
-  background-color: black;
+  margin-top: 35%;
+  background-image: url("../img/bg2.jpg");
+}
+.my-cards {
+  padding-bottom: 20px;
 }
 .inner4:hover img {
   transform: scale(1.5);
@@ -158,4 +161,11 @@ ul li {
 }
 #text-check {
   font-size: 15px;
+}
+#section-3 {
+  padding-top: 40px;
+}
+.main-menu {
+  border-bottom: 1px dotted burlywood;
+  border-width: thick;
 }
