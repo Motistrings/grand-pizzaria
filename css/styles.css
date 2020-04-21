@@ -181,12 +181,19 @@ label {
 #custom {
   background-repeat: no-repeat;
   background-image: url("../img/pizza-logo.png");
-  background-size: 140px;
+  background-size: 150px;
   background-color: wheat;
   background-position-x: right;
 }
 #beef {
   text-align: left;
+  font-family: "Rancho", cursive;
+  font-size: 30px;
+}
+#cart-text {
+  text-align: left;
+  font-family: "Rancho", cursive;
+  font-size: 25px;
 }
 #section-4 {
   background-image: url("../img/bg3.jpg");
@@ -216,6 +223,7 @@ label {
   margin: 0, 3px, 0, 0;
   display: inline-flex;
   line-height: normal;
+  padding-bottom: 10px;
 }
 #cust-radio {
   margin: 10px;
@@ -224,5 +232,19 @@ label {
   float: left;
   margin: 30px;
   margin-top: 0;
-  margin-left: 20;
+}
+.form-check-inline {
+  margin: 30px;
+  line-height: 20vh;
+  float: left;
+}
+#label-text2 {
+  color: black;
+  font-size: 13px;
+  display: inline-flex;
+  line-height: normal;
+}
+#sel1 {
+  width: fit-content;
+  background-color: burlywood;
 }
