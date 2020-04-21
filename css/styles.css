@@ -248,3 +248,6 @@ label {
   width: fit-content;
   background-color: burlywood;
 }
+#number {
+  float: left;
+}
