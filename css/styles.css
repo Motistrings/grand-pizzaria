@@ -153,27 +153,76 @@ label {
 #section-3 {
   padding-top: 40px;
 }
-#cart {
-  background-color: gainsboro;
-}
-#meat {
-  text-align: left;
-}
 #section-3 {
   background-image: url("../img/bg2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin-top: 8px;
-  height: 50vh;
+  height: 55vh;
 }
 .about-us {
   font-family: "Pacifico", cursive;
   color: white;
   font-size: 44px;
-  text-underline-offset: blue;
+  padding-top: 50px;
+}
+.order {
+  font-family: "Pacifico", cursive;
+  color: gainsboro;
+  font-size: 44px;
 }
 .about-p {
-  font-size: 20px;
+  margin-top: 30px;
+  font-size: 30px;
   color: white;
+  font-family: "Rancho", cursive;
+}
+#custom {
+  background-repeat: no-repeat;
+  background-image: url("../img/pizza-logo.png");
+  background-size: 140px;
+  background-color: wheat;
+  background-position-x: right;
+}
+#beef {
+  text-align: left;
+}
+#section-4 {
+  background-image: url("../img/bg3.jpg");
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 8px;
+}
+#label-text {
+  color: black;
+  text-emphasis: bold;
+  font-size: 13px;
+  margin: 3px;
+  display: inline-flex;
+  line-height: normal;
+}
+.custom-radio {
+  float: left;
+  margin: 12px;
+}
+#label-text1 {
+  color: black;
+  text-emphasis: bold;
+  font-size: 13px;
+  margin: 0, 3px, 0, 0;
+  display: inline-flex;
+  line-height: normal;
+}
+#cust-radio {
+  margin: 10px;
+}
+.checkbox-inline {
+  float: left;
+  margin: 30px;
+  margin-top: 0;
+  margin-left: 20;
 }
