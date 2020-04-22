@@ -58,6 +58,34 @@ label {
     display: block;
   }
 }
+@media (max-width: 768px) {
+  .container-fluid {
+    width: 100%;
+  }
+  #section-1 {
+    margin-bottom: 10px;
+  }
+  #section-2 {
+    padding-left: 80px;
+    margin: 0;
+    padding-top: 160px;
+  }
+  .container-fluid #section-3 {
+    padding-top: 60vh;
+  }
+  #section-1 .text1 {
+    font-size: 25px;
+    padding-bottom: 100px;
+  }
+
+  .container-fluid #carde {
+    margin: 0;
+    width: 20px;
+  }
+  .form-row {
+    float: left;
+  }
+}
 .menu a:hover {
   color: green;
 }
