@@ -334,3 +334,14 @@ input[type="placeholder"] {
   margin-left: 400px;
   padding-top: 50px;
 }
+footer {
+  padding-top: 20px;
+  background-color: black;
+}
+.footer-msg {
+  font-size: 20px;
+  color: grey;
+}
+.msg {
+  color: grey;
+}
