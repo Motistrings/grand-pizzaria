@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -178,12 +181,21 @@ label {
   color: white;
   font-family: "Rancho", cursive;
 }
+.contact {
+  font-family: "Pacifico", cursive;
+  color: white;
+  font-size: 44px;
+  padding-top: 30px;
+}
 #custom {
   background-repeat: no-repeat;
   background-image: url("../img/pizza-logo.png");
   background-size: 150px;
   background-color: wheat;
   background-position-x: right;
+  padding-left: 100px;
+  margin-left: 320px;
+  margin-top: 20px;
 }
 #beef {
   text-align: left;
@@ -250,4 +262,47 @@ label {
 }
 #number {
   float: left;
+}
+input[type="number"] {
+  width: 88px;
+}
+input[type="placeholder"] {
+  color: white;
+}
+.textarea {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  margin-left: 400px;
+}
+.form-group {
+  align-content: center;
+  text-align: center;
+}
+#section-5 {
+  margin-top: 8px;
+  background-image: url("../img/contact2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.form-control {
+  background: transparent;
+  color: whitesmoke;
+}
+#submit {
+  margin-left: auto;
+  background-color: gold;
+}
+#submit:hover {
+  transition: 0.1s;
+  color: white;
+}
+.form-group {
+  margin-top: opx;
+}
+.form-row {
+  align-content: center;
+  margin-left: 400px;
+  padding-top: 50px;
 }

@@ -169,7 +169,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-12">
           <div class="card shadow" style="width: 40rem;" id="custom">
             <div class="card-body text-center">
               <h5 class="card-title" id="beef">
@@ -181,9 +181,10 @@
                   <input
                     type="radio"
                     class="form-check-input"
-                    name="optradio"
+                    name="radio"
                     id="crusts"
                   />Large(10.00$)
+                  <span class="checkmark"></span>
                 </label>
               </div>
               <div class="form-check-inline">
@@ -191,9 +192,10 @@
                   <input
                     type="radio"
                     class="form-check-input"
-                    name="optradio"
+                    name="radio"
                     id="crusts"
                   />Medium(7.00$)
+                  <span class="checkmark"></span>
                 </label>
               </div>
               <div class="form-check-inline">
@@ -201,9 +203,10 @@
                   <input
                     type="radio"
                     class="form-check-input"
-                    name="optradio"
+                    name="radio"
                     id="crusts"
                   />Small(3.00$)
+                  <span class="checkmark"></span>
                 </label>
               </div>
               <br /><br /><br /><br />
@@ -261,6 +264,62 @@
               <br /><br />
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="section-5">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="contact">
+            <strong>Contact <span style="color: yellow;">Us</span></strong>
+          </h2>
+        </div>
+        <form action="" method="POST" name="feedback-form" class="validate"
+        target="_blank" enctype=”multipart/form-data”>
+        <div class="form-row">
+          <div class="form-group col-md-2"></div>
+          <div class="form-group col-md-4">
+            <input
+              type="text"
+              class="form-control"
+              name="NAME"
+              id="NAME"
+              placeholder="Insert Name.."
+              required
+            />
+          </div>
+          <div class="form-group col-md-4">
+            <input
+              type="email"
+              class="form-control"
+              name="EMAIL"
+              id="EMAIL"
+              placeholder="Insert Email.."
+              required
+            />
+          </div>
+          <div class="form-group col-md-2"></div>
+        </div>
+        <br />
+
+        <div class="form-group textarea">
+          <textarea
+            type="text"
+            class="form-control"
+            name="MESSAGE"
+            id="MESSAGE"
+            rows="6"
+            placeholder="Type your message here.."
+            required
+          ></textarea>
+          <input
+            type="submit"
+            onclick="sendMessage()"
+            value="Send Message"
+            class="btn btn-outline-info"
+            id="submit"
+          />
+          <br /><br /><br />
         </div>
       </div>
     </div>
