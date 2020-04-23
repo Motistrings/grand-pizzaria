@@ -1,3 +1,5 @@
+@media screen and (min-width: 480px) and (max-width: 767px) {
+}
 html {
   scroll-behavior: smooth;
 }
@@ -215,14 +217,15 @@ label {
   font-size: 44px;
   padding-top: 30px;
 }
+
 #custom {
   background-repeat: no-repeat;
   background-image: url("../img/pizza-logo.png");
   background-size: 150px;
   background-color: wheat;
   background-position-x: right;
-  padding-left: 100px;
-  margin-left: 320px;
+  padding-left: 10px;
+  margin-left: 0px;
   margin-top: 20px;
 }
 #beef {
@@ -308,11 +311,17 @@ input[type="placeholder"] {
   text-align: center;
 }
 #section-5 {
+  width: 100%;
   margin-top: 8px;
   background-image: url("../img/contact2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+table td {
+}
+#carde1 {
+  padding-top: 20px;
 }
 .form-control {
   background: transparent;
@@ -345,4 +354,3 @@ footer {
 .msg {
   color: grey;
 }
-
