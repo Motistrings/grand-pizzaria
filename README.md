@@ -11,6 +11,11 @@ Grand Pizzaria is about pizza online ordering and delivery.It allows you to choo
 * `Jquery`
 ## Installation/Access
 * Open this link in your browser `https://motistrings.github.io/grand-pizzaria/`
+![pizzaria](https://user-images.githubusercontent.com/62004048/80077343-0a04f480-8556-11ea-8028-5814c95ec875.png)
+
+*Order the pizza of your choice
+
+![pizza1](https://user-images.githubusercontent.com/62004048/80077379-15f0b680-8556-11ea-8941-d1923306e856.png)
 
 ## Known Bugs
 Scroll is not 100% smooth
