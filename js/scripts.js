@@ -1,3 +1,8 @@
+function Pizza(size, crust) {
+  this.size = size;
+  this.crust = crust;
+  this.toppings = [];
+}
 function sendMessage() {
   var name = $("#NAME").val();
   var email = $("#EMAIL").val();
@@ -10,4 +15,3 @@ function sendMessage() {
     );
   }
 }
-c;
